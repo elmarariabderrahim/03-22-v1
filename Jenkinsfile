@@ -4,7 +4,7 @@ pipeline {
         stage('generate_DDL') {
             steps {
 		    
-		    sh 'pwd'
+		    sh 'echo hello world'
 		   
 		    
             }
