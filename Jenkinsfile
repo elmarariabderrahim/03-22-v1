@@ -9,16 +9,6 @@ pipeline {
 		    
             }
         }
-        stage('Import_schema_apply_scripts') {
-            steps {
-               echo 'hello world'
-		               }
-        }
-        stage('Apply_to_db') {
-            steps {
-		    
-		    echo 'hello world'
-            }
-        }
+       
     }
 }
