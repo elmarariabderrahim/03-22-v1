@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('generate_DDL') {
             steps {
-		    
+		    sh 'script.sh'
 		    echo 'hello world'
 		   
 		    
