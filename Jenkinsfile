@@ -4,7 +4,7 @@ pipeline {
         stage('generate_DDL') {
             steps {
 		  
-        	    bash exp_script.sh
+        	    sh './exp_script.sh'
 		   
 		    
             }
