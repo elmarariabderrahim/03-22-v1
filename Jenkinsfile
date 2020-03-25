@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('generate_DDL') {
             steps {
-        	    bat 'sh -c ./exp_script.sh'
+        	    sh -c './exp_script.sh'
 		   
 		    
             }
