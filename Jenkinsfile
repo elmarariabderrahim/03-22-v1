@@ -4,9 +4,9 @@ pipeline {
     		PATH = "C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\bin;${env.PATH}"
 		 }
     stages {
-        stage('generate_DDL') {
+        stage('enregitrement_des_scipts') {
             steps {
-        	    bat 'sh -c ./exp_script.sh'
+        	    bat 'sh -c ./script_save.sh'
 		   
 		    
             }
