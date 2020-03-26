@@ -8,5 +8,5 @@ while IFS= read -r line
 do
 varrr="${varrr}$line"
 done < "$input"
-echo "$varrr"
+echo "$input"
 done
